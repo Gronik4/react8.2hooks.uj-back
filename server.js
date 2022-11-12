@@ -1,8 +1,8 @@
-const http = require('http');
-const Koa = require('koa');
-const Router = require('koa-router');
-const cors = require('koa2-cors');
-const koaBody = require('koa-body');
+import http from 'http';
+import Koa from 'koa';
+import Router from 'koa-router';
+import cors from 'koa2-cors';
+import koaBody from 'koa-body';
 
 const app = new Koa();
 app.use(cors());

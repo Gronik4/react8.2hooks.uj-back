@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "блок React ДЗ №8.2(hooks-context) задача: useJsonFetch backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "prestart": "npm install",
     "start": "forever server.js",
